@@ -1,0 +1,59 @@
+
+<div ng-controller="EmployeesController">
+
+    <div class="container d-flex align-items-center" style="padding-top: 15px;">
+    <h4 class="text-secondary flex-fill">Employees</h4>
+    <div><a class="btn btn-primary btn-lg" role="button" data-toggle="modal" data-target="#EmployeeModal">Add</a>
+        
+</div>
+</div>
+    <hr />
+
+    <div class="table-responsive">
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Details</th>
+                <th style="width: 82px;">###</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr ng-repeat="x in Records">
+                <td>
+                    <h5 class="text-muted">{{x.EmployeeName}}</h5>
+                    <h6 class="text-info">{{x.Profile}}</h6>
+                    <p>Mobile - {{x.Mobile}}</p>
+                    <p>Code - {{x.PWD}}</p>
+                </td>
+                <td><button class="btn btn-danger btn-sm" ng-click="Delete(x,$index)" type="button">Delete</button></td>
+            </tr>
+            
+        </tbody>
+    </table>
+</div>
+
+
+</div>
+
+<div role="dialog" tabindex="-1" class="modal fade" id="EmployeeModal">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4>Add Employee</h4><button type="button" class="close" data-dismiss="modal" aria-label="Close"><i class="fa fa-remove"></i></button>
+            </div>
+            <div class="modal-body">
+                <form name="EmployeeForm">
+                    <div class="form-group"><label>Name</label><input ng-model="Employee.EmployeeName" name="EmployeeName" type="text" class="border rounded form-control" placeholder="Enter Name" style="padding-left: 18px;" required /></div>
+                    <div class="form-group"><label>Profile</label><select ng-model="Employee.Profile"  name="Profile"  class="border rounded form-control" style="padding-left: 20px;" required>
+                        <option ng-repeat="x in ['Sales Manager','SalesMan','Team Leader',]">{{x}}</option>
+                         </select></div>
+                    <div class="form-group"><label>Mobile Number</label><input ng-model="Employee.Mobile"  name="Mobile" maxlength="10" pattern="[6789]{1}[0-9]{9}"  type="text" class="border rounded form-control" placeholder="Enter 10 Digit Mobile Number " style="padding-left: 18px;" required /></div>
+                    <div class="form-group"><label>Password</label><input type="text" ng-model="Employee.PWD"  name="PWD"  class="border rounded form-control" placeholder="Create Password" style="padding-left: 18px;" required /></div>
+                </form>
+            </div>
+            <div class="modal-footer">
+            <button class="btn btn-light" data-dismiss="modal" type="button">Close</button>
+            <button class="btn btn-success" ng-disabled="EmployeeForm.$invalid" ng-click="Save()" type="button">Save</button></div>
+        </div>
+    </div>
+</div>

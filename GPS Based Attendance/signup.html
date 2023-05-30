@@ -1,0 +1,64 @@
+
+
+<div ng-controller="SignupController" id="Body">
+    <div class="container d-flex align-items-center" style="margin-top: 15px;">
+        <img src="assets/img/add_user.png" style="margin-right: 15px;width: 45px;">
+        <h5>New User</h5>
+    </div>
+    <hr>
+    <div class="container" style="margin-top: 20px;">
+        <form name="SignUpForm">
+            <div class="form-group">
+                <label for="UserName">Name</label>
+                <div class="input-group">
+                    <input class="form-control pl-5" type="text" style="padding-left: 20px;" id="UserName" ng-model="User.UserName" placeholder="Enter Your Name" name="UserName">
+                    <!-- <div class="input-group-append"><span class="btn text-success shadow-none" type="button"><i class="fa fa-check"></i></span></div> -->
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="UserName">Mobile</label>
+                <div class="input-group">
+                    <input class="form-control pl-5" type="text" ng-model="User.Mobile" name="Mobile" placeholder="Mobile Number" maxlength="10" pattern="[6789][0-9]{9}" required>
+                    <!-- <div class="input-group-append"><span class="btn text-danger shadow-none" type="button"><i class="fa fa-remove"></i></span></div> -->
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="UserName">Email</label>
+                <div class="input-group">
+                    <input class="form-control pl-5" type="text" ng-model="User.Email" name="Email" placeholder="Enter Email Address">
+                    <!-- <div class="input-group-append"><span class="btn text-danger shadow-none" type="button"><i class="fa fa-remove"></i></span></div> -->
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="UserName">Password</label>
+                <div class="input-group">
+                    <input class="form-control pl-5" type="text" ng-model="User.PWD" placeholder="# # #" name="PWD">
+                    <!-- <div class="input-group-append"><span class="btn text-danger shadow-none" type="button"><i class="fa fa-remove"></i></span></div> -->
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="UserName">RE-Password</label>
+                <div class="input-group">
+                    <input class="form-control pl-5" type="text" placeholder="# # #" name="REPWD" ng-model="REPWD">
+                    <!-- <div class="input-group-append"><span class="btn text-danger shadow-none" type="button"><i class="fa fa-remove"></i></span></div> -->
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="UserName">Address</label>
+                <div class="input-group">
+                    <input class="form-control pl-5" type="text" required placeholder="Enter you Address" name="Address" ng-model="User.Address" />
+                    <!-- <div class="input-group-append"><span class="btn text-danger shadow-none" type="button"><i class="fa fa-remove"></i></span></div> -->
+                </div>
+            </div>
+            <!-- <div class="form-group d-flex align-items-center">
+                <label for="UserName" style="margin-right: 15px;">Gender</label>
+                <div class="custom-control custom-control-inline custom-radio"><input class="custom-control-input" type="radio" id="formCheck-1" checked ng-model="User.Gender" name="Gender" value="Male"><label class="custom-control-label" for="formCheck-1">Male</label></div>
+                <div class="custom-control custom-control-inline custom-radio"><input class="custom-control-input" type="radio" id="formCheck-2" name="Gender" ng-model="User.Gender" value="Female"><label class="custom-control-label" for="formCheck-2">Female</label></div>
+            </div> -->
+            <div class="form-group d-flex align-items-center">
+                <button class="btn btn-primary btn-block" type="button" ng-disabled="SignUpForm.$invalid || User.PWD!=REPWD" ng-click="CreateUser()"><i class="fa fa-check"></i>&nbsp;Save</button>
+            </div>
+        </form>
+    </div>
+    <hr>
+</div>

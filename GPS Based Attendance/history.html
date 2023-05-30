@@ -1,0 +1,32 @@
+
+<div ng-controller="HistoryController">
+
+    <div class="container d-flex align-items-center" style="padding-top: 15px;">
+        <input ng-change="Change()" class="form-control" type="date" ng-model="Date" value="{{Date}}" style="margin-right: 30px;padding-left: 16px;" />
+        <h4 class="text-secondary flex-fill"></h4>
+
+    </div>
+    <hr>
+
+
+    <div class="container">
+        <ul class="list-group">
+
+
+            <li class="list-group-item" ng-repeat="x in Records">
+                <div class="row">
+                    <div class="col-auto">
+                        <h4 class="text-muted"><i class="fa fa-user"></i> {{x.EmployeeName}}</h4>
+                        <h6 class="text-secondary mb-2">{{x.Profile}}</h6>
+                    </div>
+                    <div class="col text-right">
+                        <h1 ng-show="x.IsPresent" class="text-success"><i class="fa fa-check"></i></h1>
+                        <h1 ng-Hide="x.IsPresent" class="text-danger"><i class="fa fa-remove"></i></h1>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+
+</div>
+

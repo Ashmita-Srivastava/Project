@@ -1,0 +1,1178 @@
+[
+    {
+        "tripId": "twTwQwoCVjESnQLCtkhLScK2VCRBPTFATz1CZXJuQFg9NzQzOTEzMUBZPTQ2OTQ4ODM0QHU9MEBMPTg1MDcwMDBAYT0xMjhADTVIWsO8cmljaCBIQkBYPTg1NDAyMQU7GDczNzgxNzcZOwQzMBk7LDIwMjEwNjI3MTAzMRkN2DEyOCRJQyAxICAgICQkMSQkJCTCtktDwrYjVkUjMCNDRiMxMDAjQ0EjMCNDTSMwI1NJQ1QjMSMBJBUlWEVSRyMxI0hJTiMwI0VDSyMyODU3NTF8GQcIODA4AQ4BBxQwfDB8ODUBDnQ3NDJ8MXwtMjE0NzQ3OTUzNHwwIxqQAgo6ChIKBzgJ9ygSB1NUQVRJT04SGQG_fC0wNi0yN1QxMDozMTowMCswMjowMCIHUExBTk5FRCgEFTwB-BU8ABoyPAAMMToyOEo8APBGBhIYCAQQBhoGMDAwMDExIgJJQyoBMTIDNzEzGjoKAlZSEh5CSUNZQ0xFUzogUmVzZXJ2YXRpb24gcmVxdWlyZWQY______8BAwQBIAEGBQEgARowCgJSIBIULjIAHHBvc3NpYmxlVjIAPCoOUFVCTElDX0pPVVJORVk=",
+        "alternative": false,
+        "valid": true,
+        "segments": [
+            {
+                "type": "PUBLIC_JOURNEY",
+                "stops": [
+                    {
+                        "id2": {
+                            "value": "8507000",
+                            "type": "UIC",
+                            "externalId": null
+                        },
+                        "name": "Bern",
+                        "departureDateTime": "2021-06-27T10:31:00+02:00",
+                        "departureDelayText": "",
+                        "departureTrack": "5",
+                        "departurePlatformChanged": false,
+                        "delayUndefined": false,
+                        "arrivalPlatformChanged": false,
+                        "stopStatus": "PLANNED",
+                        "requestStop": false,
+                        "boardingAlightingStatus": "BOARDING_ALIGHTING",
+                        "routeIndex": 4,
+                        "tariffBorder": false
+                    },
+                    {
+                        "id2": {
+                            "value": "8503000",
+                            "type": "UIC",
+                            "externalId": null
+                        },
+                        "name": "Zürich HB",
+                        "arrivalDateTime": "2021-06-27T11:28:00+02:00",
+                        "arrivalDelayText": "",
+                        "departurePlatformChanged": false,
+                        "delayUndefined": false,
+                        "arrivalTrack": "33",
+                        "arrivalPlatformChanged": false,
+                        "stopStatus": "PLANNED",
+                        "requestStop": false,
+                        "boardingAlightingStatus": "BOARDING_ALIGHTING",
+                        "routeIndex": 6,
+                        "tariffBorder": false
+                    }
+                ],
+                "transportProduct": {
+                    "name": "IC 1",
+                    "categoryShortForm": "IC",
+                    "categoryLongForm": "InterCity",
+                    "line": "1",
+                    "number": "713",
+                    "vehicleType": "TRAIN"
+                },
+                "attributes": [
+                    {
+                        "key": "OM",
+                        "value": "Masks mandatory for travellers aged 12 and over"
+                    },
+                    {
+                        "key": "WR",
+                        "value": "Restaurant"
+                    },
+                    {
+                        "key": "FA",
+                        "value": "Family Coach with play area"
+                    },
+                    {
+                        "key": "BZ",
+                        "value": "Business zone in 1st class"
+                    },
+                    {
+                        "key": "FS",
+                        "value": "Free Internet with the SBB FreeSurf app"
+                    },
+                    {
+                        "key": "RZ",
+                        "value": "Quiet zone in 1st class"
+                    },
+                    {
+                        "key": "VR",
+                        "value": "BICYCLES: Reservation required"
+                    },
+                    {
+                        "key": "R ",
+                        "value": "Reservation possible"
+                    }
+                ],
+                "messages": [],
+                "direction": "St. Gallen",
+                "journeyStatus": "PLANNED",
+                "cancelled": false,
+                "partiallyCancelled": false,
+                "reachable": true,
+                "redirected": false
+            }
+        ],
+        "scrollCheckSum": "e90f793e_3",
+        "links": [
+            {
+                "rel": "prices",
+                "version": null,
+                "href": "https://b2p-int.api.sbb.ch/api/v2/prices?tripIds=twTwQwoCVjESnQLCtkhLScK2VCRBPTFATz1CZXJuQFg9NzQzOTEzMUBZPTQ2OTQ4ODM0QHU9MEBMPTg1MDcwMDBAYT0xMjhADTVIWsO8cmljaCBIQkBYPTg1NDAyMQU7GDczNzgxNzcZOwQzMBk7LDIwMjEwNjI3MTAzMRkN2DEyOCRJQyAxICAgICQkMSQkJCTCtktDwrYjVkUjMCNDRiMxMDAjQ0EjMCNDTSMwI1NJQ1QjMSMBJBUlWEVSRyMxI0hJTiMwI0VDSyMyODU3NTF8GQcIODA4AQ4BBxQwfDB8ODUBDnQ3NDJ8MXwtMjE0NzQ3OTUzNHwwIxqQAgo6ChIKBzgJ9ygSB1NUQVRJT04SGQG_fC0wNi0yN1QxMDozMTowMCswMjowMCIHUExBTk5FRCgEFTwB-BU8ABoyPAAMMToyOEo8APBGBhIYCAQQBhoGMDAwMDExIgJJQyoBMTIDNzEzGjoKAlZSEh5CSUNZQ0xFUzogUmVzZXJ2YXRpb24gcmVxdWlyZWQY______8BAwQBIAEGBQEgARowCgJSIBIULjIAHHBvc3NpYmxlVjIAPCoOUFVCTElDX0pPVVJORVk=&passengers=${passengerInfos}",
+                "method": "GET",
+                "contentTypes": [
+                    "application/json"
+                ]
+            },
+            {
+                "rel": "trip-offers",
+                "version": null,
+                "href": "https://b2p-int.api.sbb.ch/api/trip-offers?tripId=twTwQwoCVjESnQLCtkhLScK2VCRBPTFATz1CZXJuQFg9NzQzOTEzMUBZPTQ2OTQ4ODM0QHU9MEBMPTg1MDcwMDBAYT0xMjhADTVIWsO8cmljaCBIQkBYPTg1NDAyMQU7GDczNzgxNzcZOwQzMBk7LDIwMjEwNjI3MTAzMRkN2DEyOCRJQyAxICAgICQkMSQkJCTCtktDwrYjVkUjMCNDRiMxMDAjQ0EjMCNDTSMwI1NJQ1QjMSMBJBUlWEVSRyMxI0hJTiMwI0VDSyMyODU3NTF8GQcIODA4AQ4BBxQwfDB8ODUBDnQ3NDJ8MXwtMjE0NzQ3OTUzNHwwIxqQAgo6ChIKBzgJ9ygSB1NUQVRJT04SGQG_fC0wNi0yN1QxMDozMTowMCswMjowMCIHUExBTk5FRCgEFTwB-BU8ABoyPAAMMToyOEo8APBGBhIYCAQQBhoGMDAwMDExIgJJQyoBMTIDNzEzGjoKAlZSEh5CSUNZQ0xFUzogUmVzZXJ2YXRpb24gcmVxdWlyZWQY______8BAwQBIAEGBQEgARowCgJSIBIULjIAHHBvc3NpYmxlVjIAPCoOUFVCTElDX0pPVVJORVk=&passengers=${passengerInfos}",
+                "method": "GET",
+                "contentTypes": [
+                    "application/json"
+                ]
+            },
+            {
+                "rel": "online-offers",
+                "version": null,
+                "href": "https://www.sbb.ch/en/buying/pages/fahrplan/fahrplan.xhtml?recon=twTwQwoCVjESnQLCtkhLScK2VCRBPTFATz1CZXJuQFg9NzQzOTEzMUBZPTQ2OTQ4ODM0QHU9MEBMPTg1MDcwMDBAYT0xMjhADTVIWsO8cmljaCBIQkBYPTg1NDAyMQU7GDczNzgxNzcZOwQzMBk7LDIwMjEwNjI3MTAzMRkN2DEyOCRJQyAxICAgICQkMSQkJCTCtktDwrYjVkUjMCNDRiMxMDAjQ0EjMCNDTSMwI1NJQ1QjMSMBJBUlWEVSRyMxI0hJTiMwI0VDSyMyODU3NTF8GQcIODA4AQ4BBxQwfDB8ODUBDnQ3NDJ8MXwtMjE0NzQ3OTUzNHwwIxqQAgo6ChIKBzgJ9ygSB1NUQVRJT04SGQG_fC0wNi0yN1QxMDozMTowMCswMjowMCIHUExBTk5FRCgEFTwB-BU8ABoyPAAMMToyOEo8APBGBhIYCAQQBhoGMDAwMDExIgJJQyoBMTIDNzEzGjoKAlZSEh5CSUNZQ0xFUzogUmVzZXJ2YXRpb24gcmVxdWlyZWQY______8BAwQBIAEGBQEgARowCgJSIBIULjIAHHBvc3NpYmxlVjIAPCoOUFVCTElDX0pPVVJORVk=&datum=2021-06-27&zeit=1031",
+                "method": "GET",
+                "contentTypes": [
+                    "text/html"
+                ]
+            },
+            {
+                "rel": "mobile-offers",
+                "version": null,
+                "href": "https://app.sbbmobile.ch/tripoffer?appid=bookingAPI&recon=%C2%B6HKI%C2%B6T%24A%3D1%40O%3DBern%40X%3D7439131%40Y%3D46948834%40u%3D0%40L%3D8507000%40a%3D128%40%24A%3D1%40O%3DZ%C3%BCrich+HB%40X%3D8540211%40Y%3D47378177%40u%3D0%40L%3D8503000%40a%3D128%40%24202106271031%24202106271128%24IC+1++++%24%241%24%24%24%24%C2%B6KC%C2%B6%23VE%230%23CF%23100%23CA%230%23CM%230%23SICT%231%23%C2%B6KCC%C2%B6%23VE%230%23ERG%231%23HIN%230%23ECK%23285751%7C285751%7C285808%7C285808%7C0%7C0%7C85%7C285742%7C1%7C-2147479534%7C0%23&date=2021-06-27",
+                "method": "GET",
+                "contentTypes": [
+                    "text/html"
+                ]
+            }
+        ]
+    },
+    {
+        "tripId": "2wbwQwoCVjESuQPCtkhLScK2VCRBPTFATz1CZXJuQFg9NzQzOTEzMUBZPTQ2OTQ4ODM0QHU9MEBMPTg1MDcwMDBAYT0xMjhADTVMQWFyYXVAWD04MDUxMjY5QFk9NDcBQAQ2NBk2DDIxMTMRNiwyMDIxMDYyNzEwMzMZDVAxMTEkSVIgMTYgICAkJDEkJCQkwqcRmL5jAAnOJFrDvHJpY2ggSEIBngQ1NAGGCZ4QNzgxNzcZngQzMBnUFZ4EMTIungAENTIBngQzNx2eTLZLQ8K2I1ZFIzAjQ0YjMTAwI0NBAQwoTSMwI1NJQ1QjMSMBJBUlWEVSRyMyI0hJTiMwI0VDSyMyODU3NTN8GQcIODMyAQ4BByAwfDB8NjU3MDEBEXw3NTJ8MnwtMjE0NzQ4MzYzMHwwIxrQAQo4ChIKBzg1MCGTKBIHU1RBVElPThIZAcJ8LTA2LTI3VDEwOjMzOjAwKzAyOjAwIgdQTEFOTkVECh8NOgwwMjE4FToVHwwoAgo6DSEhuBUhABoyWwAMMToxMUZbAGAoAxIZEAMaBjAwMDAxMSICSVIqAjE2MgUzQRuIIgwKAlpPEgQyMTY5IAMqDlBVQkxJQ19KT1VSTkVZGsUBCjpOeAA20wAMMToyM054ABXVDDIxMTkVtBnVAAQVXSHvFSE-1QAANSEqOjABHCgFEhoIAxAFNtcAXDM3MgQyMjY3Kg5QVUJMSUNfSk9VUk5FWQ==",
+        "alternative": false,
+        "valid": true,
+        "segments": [
+            {
+                "type": "PUBLIC_JOURNEY",
+                "stops": [
+                    {
+                        "id2": {
+                            "value": "8507000",
+                            "type": "UIC",
+                            "externalId": null
+                        },
+                        "name": "Bern",
+                        "departureDateTime": "2021-06-27T10:33:00+02:00",
+                        "departureDelayText": "",
+                        "departureTrack": "9",
+                        "departurePlatformChanged": false,
+                        "delayUndefined": false,
+                        "arrivalPlatformChanged": false,
+                        "stopStatus": "PLANNED",
+                        "requestStop": false,
+                        "boardingAlightingStatus": "BOARDING_ALIGHTING",
+                        "routeIndex": 0,
+                        "tariffBorder": false
+                    },
+                    {
+                        "id2": {
+                            "value": "8500218",
+                            "type": "UIC",
+                            "externalId": null
+                        },
+                        "name": "Olten",
+                        "departureDateTime": "2021-06-27T11:02:00+02:00",
+                        "departureDelayText": "",
+                        "arrivalDateTime": "2021-06-27T11:00:00+02:00",
+                        "arrivalDelayText": "",
+                        "departureTrack": "4",
+                        "departurePlatformChanged": false,
+                        "delayUndefined": false,
+                        "arrivalTrack": "4",
+                        "arrivalPlatformChanged": false,
+                        "stopStatus": "PLANNED",
+                        "requestStop": false,
+                        "boardingAlightingStatus": "BOARDING_ALIGHTING",
+                        "routeIndex": 2,
+                        "tariffBorder": false
+                    },
+                    {
+                        "id2": {
+                            "value": "8502113",
+                            "type": "UIC",
+                            "externalId": null
+                        },
+                        "name": "Aarau",
+                        "arrivalDateTime": "2021-06-27T11:11:00+02:00",
+                        "arrivalDelayText": "",
+                        "departurePlatformChanged": false,
+                        "delayUndefined": false,
+                        "arrivalTrack": "1",
+                        "arrivalPlatformChanged": false,
+                        "stopStatus": "PLANNED",
+                        "requestStop": false,
+                        "boardingAlightingStatus": "BOARDING_ALIGHTING",
+                        "routeIndex": 3,
+                        "tariffBorder": false
+                    }
+                ],
+                "transportProduct": {
+                    "name": "IR 16",
+                    "categoryShortForm": "IR",
+                    "categoryLongForm": "InterRegio",
+                    "line": "16",
+                    "number": "31269",
+                    "vehicleType": "TRAIN"
+                },
+                "attributes": [
+                    {
+                        "key": "OM",
+                        "value": "Masks mandatory for travellers aged 12 and over"
+                    },
+                    {
+                        "key": "FS",
+                        "value": "Free Internet with the SBB FreeSurf app"
+                    }
+                ],
+                "messages": [],
+                "direction": "Zürich HB",
+                "journeyStatus": "PLANNED",
+                "cancelled": false,
+                "partiallyCancelled": false,
+                "reachable": true,
+                "redirected": false
+            },
+            {
+                "type": "PUBLIC_JOURNEY",
+                "stops": [
+                    {
+                        "id2": {
+                            "value": "8502113",
+                            "type": "UIC",
+                            "externalId": null
+                        },
+                        "name": "Aarau",
+                        "departureDateTime": "2021-06-27T11:23:00+02:00",
+                        "departureDelayText": "",
+                        "departureTrack": "3",
+                        "departurePlatformChanged": false,
+                        "delayUndefined": false,
+                        "arrivalPlatformChanged": false,
+                        "stopStatus": "PLANNED",
+                        "requestStop": false,
+                        "boardingAlightingStatus": "BOARDING_ALIGHTING",
+                        "routeIndex": 3,
+                        "tariffBorder": false
+                    },
+                    {
+                        "id2": {
+                            "value": "8502119",
+                            "type": "UIC",
+                            "externalId": null
+                        },
+                        "name": "Lenzburg",
+                        "departureDateTime": "2021-06-27T11:30:00+02:00",
+                        "departureDelayText": "",
+                        "arrivalDateTime": "2021-06-27T11:30:00+02:00",
+                        "arrivalDelayText": "",
+                        "departureTrack": "2",
+                        "departurePlatformChanged": false,
+                        "delayUndefined": false,
+                        "arrivalTrack": "2",
+                        "arrivalPlatformChanged": false,
+                        "stopStatus": "PLANNED",
+                        "requestStop": false,
+                        "boardingAlightingStatus": "BOARDING_ALIGHTING",
+                        "routeIndex": 4,
+                        "tariffBorder": false
+                    },
+                    {
+                        "id2": {
+                            "value": "8503000",
+                            "type": "UIC",
+                            "externalId": null
+                        },
+                        "name": "Zürich HB",
+                        "arrivalDateTime": "2021-06-27T11:52:00+02:00",
+                        "arrivalDelayText": "",
+                        "departurePlatformChanged": false,
+                        "delayUndefined": false,
+                        "arrivalTrack": "17",
+                        "arrivalPlatformChanged": false,
+                        "stopStatus": "PLANNED",
+                        "requestStop": false,
+                        "boardingAlightingStatus": "BOARDING_ALIGHTING",
+                        "routeIndex": 5,
+                        "tariffBorder": false
+                    }
+                ],
+                "transportProduct": {
+                    "name": "IR 37",
+                    "categoryShortForm": "IR",
+                    "categoryLongForm": "InterRegio",
+                    "line": "37",
+                    "number": "2267",
+                    "vehicleType": "TRAIN"
+                },
+                "attributes": [
+                    {
+                        "key": "OM",
+                        "value": "Masks mandatory for travellers aged 12 and over"
+                    },
+                    {
+                        "key": "FS",
+                        "value": "Free Internet with the SBB FreeSurf app"
+                    }
+                ],
+                "messages": [],
+                "direction": "Zürich HB",
+                "journeyStatus": "PLANNED",
+                "cancelled": false,
+                "partiallyCancelled": false,
+                "reachable": true,
+                "redirected": false
+            }
+        ],
+        "scrollCheckSum": "3a2fa3db_3",
+        "links": [
+            {
+                "rel": "prices",
+                "version": null,
+                "href": "https://b2p-int.api.sbb.ch/api/v2/prices?tripIds=2wbwQwoCVjESuQPCtkhLScK2VCRBPTFATz1CZXJuQFg9NzQzOTEzMUBZPTQ2OTQ4ODM0QHU9MEBMPTg1MDcwMDBAYT0xMjhADTVMQWFyYXVAWD04MDUxMjY5QFk9NDcBQAQ2NBk2DDIxMTMRNiwyMDIxMDYyNzEwMzMZDVAxMTEkSVIgMTYgICAkJDEkJCQkwqcRmL5jAAnOJFrDvHJpY2ggSEIBngQ1NAGGCZ4QNzgxNzcZngQzMBnUFZ4EMTIungAENTIBngQzNx2eTLZLQ8K2I1ZFIzAjQ0YjMTAwI0NBAQwoTSMwI1NJQ1QjMSMBJBUlWEVSRyMyI0hJTiMwI0VDSyMyODU3NTN8GQcIODMyAQ4BByAwfDB8NjU3MDEBEXw3NTJ8MnwtMjE0NzQ4MzYzMHwwIxrQAQo4ChIKBzg1MCGTKBIHU1RBVElPThIZAcJ8LTA2LTI3VDEwOjMzOjAwKzAyOjAwIgdQTEFOTkVECh8NOgwwMjE4FToVHwwoAgo6DSEhuBUhABoyWwAMMToxMUZbAGAoAxIZEAMaBjAwMDAxMSICSVIqAjE2MgUzQRuIIgwKAlpPEgQyMTY5IAMqDlBVQkxJQ19KT1VSTkVZGsUBCjpOeAA20wAMMToyM054ABXVDDIxMTkVtBnVAAQVXSHvFSE-1QAANSEqOjABHCgFEhoIAxAFNtcAXDM3MgQyMjY3Kg5QVUJMSUNfSk9VUk5FWQ==&passengers=${passengerInfos}",
+                "method": "GET",
+                "contentTypes": [
+                    "application/json"
+                ]
+            },
+            {
+                "rel": "trip-offers",
+                "version": null,
+                "href": "https://b2p-int.api.sbb.ch/api/trip-offers?tripId=2wbwQwoCVjESuQPCtkhLScK2VCRBPTFATz1CZXJuQFg9NzQzOTEzMUBZPTQ2OTQ4ODM0QHU9MEBMPTg1MDcwMDBAYT0xMjhADTVMQWFyYXVAWD04MDUxMjY5QFk9NDcBQAQ2NBk2DDIxMTMRNiwyMDIxMDYyNzEwMzMZDVAxMTEkSVIgMTYgICAkJDEkJCQkwqcRmL5jAAnOJFrDvHJpY2ggSEIBngQ1NAGGCZ4QNzgxNzcZngQzMBnUFZ4EMTIungAENTIBngQzNx2eTLZLQ8K2I1ZFIzAjQ0YjMTAwI0NBAQwoTSMwI1NJQ1QjMSMBJBUlWEVSRyMyI0hJTiMwI0VDSyMyODU3NTN8GQcIODMyAQ4BByAwfDB8NjU3MDEBEXw3NTJ8MnwtMjE0NzQ4MzYzMHwwIxrQAQo4ChIKBzg1MCGTKBIHU1RBVElPThIZAcJ8LTA2LTI3VDEwOjMzOjAwKzAyOjAwIgdQTEFOTkVECh8NOgwwMjE4FToVHwwoAgo6DSEhuBUhABoyWwAMMToxMUZbAGAoAxIZEAMaBjAwMDAxMSICSVIqAjE2MgUzQRuIIgwKAlpPEgQyMTY5IAMqDlBVQkxJQ19KT1VSTkVZGsUBCjpOeAA20wAMMToyM054ABXVDDIxMTkVtBnVAAQVXSHvFSE-1QAANSEqOjABHCgFEhoIAxAFNtcAXDM3MgQyMjY3Kg5QVUJMSUNfSk9VUk5FWQ==&passengers=${passengerInfos}",
+                "method": "GET",
+                "contentTypes": [
+                    "application/json"
+                ]
+            },
+            {
+                "rel": "online-offers",
+                "version": null,
+                "href": "https://www.sbb.ch/en/buying/pages/fahrplan/fahrplan.xhtml?recon=2wbwQwoCVjESuQPCtkhLScK2VCRBPTFATz1CZXJuQFg9NzQzOTEzMUBZPTQ2OTQ4ODM0QHU9MEBMPTg1MDcwMDBAYT0xMjhADTVMQWFyYXVAWD04MDUxMjY5QFk9NDcBQAQ2NBk2DDIxMTMRNiwyMDIxMDYyNzEwMzMZDVAxMTEkSVIgMTYgICAkJDEkJCQkwqcRmL5jAAnOJFrDvHJpY2ggSEIBngQ1NAGGCZ4QNzgxNzcZngQzMBnUFZ4EMTIungAENTIBngQzNx2eTLZLQ8K2I1ZFIzAjQ0YjMTAwI0NBAQwoTSMwI1NJQ1QjMSMBJBUlWEVSRyMyI0hJTiMwI0VDSyMyODU3NTN8GQcIODMyAQ4BByAwfDB8NjU3MDEBEXw3NTJ8MnwtMjE0NzQ4MzYzMHwwIxrQAQo4ChIKBzg1MCGTKBIHU1RBVElPThIZAcJ8LTA2LTI3VDEwOjMzOjAwKzAyOjAwIgdQTEFOTkVECh8NOgwwMjE4FToVHwwoAgo6DSEhuBUhABoyWwAMMToxMUZbAGAoAxIZEAMaBjAwMDAxMSICSVIqAjE2MgUzQRuIIgwKAlpPEgQyMTY5IAMqDlBVQkxJQ19KT1VSTkVZGsUBCjpOeAA20wAMMToyM054ABXVDDIxMTkVtBnVAAQVXSHvFSE-1QAANSEqOjABHCgFEhoIAxAFNtcAXDM3MgQyMjY3Kg5QVUJMSUNfSk9VUk5FWQ==&datum=2021-06-27&zeit=1033",
+                "method": "GET",
+                "contentTypes": [
+                    "text/html"
+                ]
+            },
+            {
+                "rel": "mobile-offers",
+                "version": null,
+                "href": "https://app.sbbmobile.ch/tripoffer?appid=bookingAPI&recon=%C2%B6HKI%C2%B6T%24A%3D1%40O%3DBern%40X%3D7439131%40Y%3D46948834%40u%3D0%40L%3D8507000%40a%3D128%40%24A%3D1%40O%3DAarau%40X%3D8051269%40Y%3D47391364%40u%3D0%40L%3D8502113%40a%3D128%40%24202106271033%24202106271111%24IR+16+++%24%241%24%24%24%24%C2%A7T%24A%3D1%40O%3DAarau%40X%3D8051269%40Y%3D47391364%40u%3D0%40L%3D8502113%40a%3D128%40%24A%3D1%40O%3DZ%C3%BCrich+HB%40X%3D8540211%40Y%3D47378177%40u%3D0%40L%3D8503000%40a%3D128%40%24202106271123%24202106271152%24IR+37+++%24%241%24%24%24%24%C2%B6KC%C2%B6%23VE%230%23CF%23100%23CA%230%23CM%230%23SICT%231%23%C2%B6KCC%C2%B6%23VE%230%23ERG%232%23HIN%230%23ECK%23285753%7C285753%7C285832%7C285832%7C0%7C0%7C65701%7C285752%7C2%7C-2147483630%7C0%23&date=2021-06-27",
+                "method": "GET",
+                "contentTypes": [
+                    "text/html"
+                ]
+            }
+        ]
+    },
+    {
+        "tripId": "3gTwQwoCVjESoQLCtkhLScK2VCRBPTFATz1CZXJuQFg9NzQzOTEzMUBZPTQ2OTQ4ODM0QHU9MEBMPTg1MDcwMDBAYT0xMjhADTVIWsO8cmljaCBIQkBYPTg1NDAyMQU7GDczNzgxNzcZOwQzMBk7LDIwMjEwNjI3MTAzMxkN2DE1NCRJUiAxNiAgICQkMSQkJCTCtktDwrYjVkUjMCNDRiMxMDAjQ0EjMCNDTSMwI1NJQ1QjMSMBJBUlZEVSRyM4MTkzI0hJTiMwI0VDSyMyODU3NTN8GQcIODMyAQ4oODM0fDB8MHwxNjUBD3Q3NTJ8M3wtMjE0NzQ3OTU1MHwwIxqzAgo4ChIKBzgJ-ygSB1NUQVRJT04SGQHDfC0wNi0yN1QxMDozMzowMCswMjowMCIHUExBTk5FRAofDToMMDIxOBU6FR8EKAIVIQwyMTEzSiEAAAMVIQwwMzA5SiEAAAQVIQwzNTA0SiEACAUKOg2EIX4VIQAaMr4ADDE6NTRGvgDoKAYSGRAGGgYwMDAwMTEiAklSKgIxNjIFMzEyNjkiDAoCWk8SBDIxNjkgBioOUFVCTElDX0pPVVJORVk=",
+        "alternative": false,
+        "valid": true,
+        "segments": [
+            {
+                "type": "PUBLIC_JOURNEY",
+                "stops": [
+                    {
+                        "id2": {
+                            "value": "8507000",
+                            "type": "UIC",
+                            "externalId": null
+                        },
+                        "name": "Bern",
+                        "departureDateTime": "2021-06-27T10:33:00+02:00",
+                        "departureDelayText": "",
+                        "departureTrack": "9",
+                        "departurePlatformChanged": false,
+                        "delayUndefined": false,
+                        "arrivalPlatformChanged": false,
+                        "stopStatus": "PLANNED",
+                        "requestStop": false,
+                        "boardingAlightingStatus": "BOARDING_ALIGHTING",
+                        "routeIndex": 0,
+                        "tariffBorder": false
+                    },
+                    {
+                        "id2": {
+                            "value": "8500218",
+                            "type": "UIC",
+                            "externalId": null
+                        },
+                        "name": "Olten",
+                        "departureDateTime": "2021-06-27T11:02:00+02:00",
+                        "departureDelayText": "",
+                        "arrivalDateTime": "2021-06-27T11:00:00+02:00",
+                        "arrivalDelayText": "",
+                        "departureTrack": "4",
+                        "departurePlatformChanged": false,
+                        "delayUndefined": false,
+                        "arrivalTrack": "4",
+                        "arrivalPlatformChanged": false,
+                        "stopStatus": "PLANNED",
+                        "requestStop": false,
+                        "boardingAlightingStatus": "BOARDING_ALIGHTING",
+                        "routeIndex": 2,
+                        "tariffBorder": false
+                    },
+                    {
+                        "id2": {
+                            "value": "8502113",
+                            "type": "UIC",
+                            "externalId": null
+                        },
+                        "name": "Aarau",
+                        "departureDateTime": "2021-06-27T11:13:00+02:00",
+                        "departureDelayText": "",
+                        "arrivalDateTime": "2021-06-27T11:11:00+02:00",
+                        "arrivalDelayText": "",
+                        "departureTrack": "1",
+                        "departurePlatformChanged": false,
+                        "delayUndefined": false,
+                        "arrivalTrack": "1",
+                        "arrivalPlatformChanged": false,
+                        "stopStatus": "PLANNED",
+                        "requestStop": false,
+                        "boardingAlightingStatus": "BOARDING_ALIGHTING",
+                        "routeIndex": 3,
+                        "tariffBorder": false
+                    },
+                    {
+                        "id2": {
+                            "value": "8500309",
+                            "type": "UIC",
+                            "externalId": null
+                        },
+                        "name": "Brugg AG",
+                        "departureDateTime": "2021-06-27T11:30:00+02:00",
+                        "departureDelayText": "",
+                        "arrivalDateTime": "2021-06-27T11:28:00+02:00",
+                        "arrivalDelayText": "",
+                        "departureTrack": "3",
+                        "departurePlatformChanged": false,
+                        "delayUndefined": false,
+                        "arrivalTrack": "3",
+                        "arrivalPlatformChanged": false,
+                        "stopStatus": "PLANNED",
+                        "requestStop": false,
+                        "boardingAlightingStatus": "BOARDING_ALIGHTING",
+                        "routeIndex": 4,
+                        "tariffBorder": false
+                    },
+                    {
+                        "id2": {
+                            "value": "8503504",
+                            "type": "UIC",
+                            "externalId": null
+                        },
+                        "name": "Baden",
+                        "departureDateTime": "2021-06-27T11:38:00+02:00",
+                        "departureDelayText": "",
+                        "arrivalDateTime": "2021-06-27T11:37:00+02:00",
+                        "arrivalDelayText": "",
+                        "departureTrack": "1",
+                        "departurePlatformChanged": false,
+                        "delayUndefined": false,
+                        "arrivalTrack": "1",
+                        "arrivalPlatformChanged": false,
+                        "stopStatus": "PLANNED",
+                        "requestStop": false,
+                        "boardingAlightingStatus": "BOARDING_ALIGHTING",
+                        "routeIndex": 5,
+                        "tariffBorder": false
+                    },
+                    {
+                        "id2": {
+                            "value": "8503000",
+                            "type": "UIC",
+                            "externalId": null
+                        },
+                        "name": "Zürich HB",
+                        "arrivalDateTime": "2021-06-27T11:54:00+02:00",
+                        "arrivalDelayText": "",
+                        "departurePlatformChanged": false,
+                        "delayUndefined": false,
+                        "arrivalTrack": "15",
+                        "arrivalPlatformChanged": false,
+                        "stopStatus": "PLANNED",
+                        "requestStop": false,
+                        "boardingAlightingStatus": "BOARDING_ALIGHTING",
+                        "routeIndex": 6,
+                        "tariffBorder": false
+                    }
+                ],
+                "transportProduct": {
+                    "name": "IR 16",
+                    "categoryShortForm": "IR",
+                    "categoryLongForm": "InterRegio",
+                    "line": "16",
+                    "number": "31269",
+                    "vehicleType": "TRAIN"
+                },
+                "attributes": [
+                    {
+                        "key": "OM",
+                        "value": "Masks mandatory for travellers aged 12 and over"
+                    },
+                    {
+                        "key": "FS",
+                        "value": "Free Internet with the SBB FreeSurf app"
+                    }
+                ],
+                "messages": [],
+                "direction": "Zürich HB",
+                "journeyStatus": "PLANNED",
+                "cancelled": false,
+                "partiallyCancelled": false,
+                "reachable": true,
+                "redirected": false
+            }
+        ],
+        "scrollCheckSum": "93409570_3",
+        "links": [
+            {
+                "rel": "prices",
+                "version": null,
+                "href": "https://b2p-int.api.sbb.ch/api/v2/prices?tripIds=3gTwQwoCVjESoQLCtkhLScK2VCRBPTFATz1CZXJuQFg9NzQzOTEzMUBZPTQ2OTQ4ODM0QHU9MEBMPTg1MDcwMDBAYT0xMjhADTVIWsO8cmljaCBIQkBYPTg1NDAyMQU7GDczNzgxNzcZOwQzMBk7LDIwMjEwNjI3MTAzMxkN2DE1NCRJUiAxNiAgICQkMSQkJCTCtktDwrYjVkUjMCNDRiMxMDAjQ0EjMCNDTSMwI1NJQ1QjMSMBJBUlZEVSRyM4MTkzI0hJTiMwI0VDSyMyODU3NTN8GQcIODMyAQ4oODM0fDB8MHwxNjUBD3Q3NTJ8M3wtMjE0NzQ3OTU1MHwwIxqzAgo4ChIKBzgJ-ygSB1NUQVRJT04SGQHDfC0wNi0yN1QxMDozMzowMCswMjowMCIHUExBTk5FRAofDToMMDIxOBU6FR8EKAIVIQwyMTEzSiEAAAMVIQwwMzA5SiEAAAQVIQwzNTA0SiEACAUKOg2EIX4VIQAaMr4ADDE6NTRGvgDoKAYSGRAGGgYwMDAwMTEiAklSKgIxNjIFMzEyNjkiDAoCWk8SBDIxNjkgBioOUFVCTElDX0pPVVJORVk=&passengers=${passengerInfos}",
+                "method": "GET",
+                "contentTypes": [
+                    "application/json"
+                ]
+            },
+            {
+                "rel": "trip-offers",
+                "version": null,
+                "href": "https://b2p-int.api.sbb.ch/api/trip-offers?tripId=3gTwQwoCVjESoQLCtkhLScK2VCRBPTFATz1CZXJuQFg9NzQzOTEzMUBZPTQ2OTQ4ODM0QHU9MEBMPTg1MDcwMDBAYT0xMjhADTVIWsO8cmljaCBIQkBYPTg1NDAyMQU7GDczNzgxNzcZOwQzMBk7LDIwMjEwNjI3MTAzMxkN2DE1NCRJUiAxNiAgICQkMSQkJCTCtktDwrYjVkUjMCNDRiMxMDAjQ0EjMCNDTSMwI1NJQ1QjMSMBJBUlZEVSRyM4MTkzI0hJTiMwI0VDSyMyODU3NTN8GQcIODMyAQ4oODM0fDB8MHwxNjUBD3Q3NTJ8M3wtMjE0NzQ3OTU1MHwwIxqzAgo4ChIKBzgJ-ygSB1NUQVRJT04SGQHDfC0wNi0yN1QxMDozMzowMCswMjowMCIHUExBTk5FRAofDToMMDIxOBU6FR8EKAIVIQwyMTEzSiEAAAMVIQwwMzA5SiEAAAQVIQwzNTA0SiEACAUKOg2EIX4VIQAaMr4ADDE6NTRGvgDoKAYSGRAGGgYwMDAwMTEiAklSKgIxNjIFMzEyNjkiDAoCWk8SBDIxNjkgBioOUFVCTElDX0pPVVJORVk=&passengers=${passengerInfos}",
+                "method": "GET",
+                "contentTypes": [
+                    "application/json"
+                ]
+            },
+            {
+                "rel": "online-offers",
+                "version": null,
+                "href": "https://www.sbb.ch/en/buying/pages/fahrplan/fahrplan.xhtml?recon=3gTwQwoCVjESoQLCtkhLScK2VCRBPTFATz1CZXJuQFg9NzQzOTEzMUBZPTQ2OTQ4ODM0QHU9MEBMPTg1MDcwMDBAYT0xMjhADTVIWsO8cmljaCBIQkBYPTg1NDAyMQU7GDczNzgxNzcZOwQzMBk7LDIwMjEwNjI3MTAzMxkN2DE1NCRJUiAxNiAgICQkMSQkJCTCtktDwrYjVkUjMCNDRiMxMDAjQ0EjMCNDTSMwI1NJQ1QjMSMBJBUlZEVSRyM4MTkzI0hJTiMwI0VDSyMyODU3NTN8GQcIODMyAQ4oODM0fDB8MHwxNjUBD3Q3NTJ8M3wtMjE0NzQ3OTU1MHwwIxqzAgo4ChIKBzgJ-ygSB1NUQVRJT04SGQHDfC0wNi0yN1QxMDozMzowMCswMjowMCIHUExBTk5FRAofDToMMDIxOBU6FR8EKAIVIQwyMTEzSiEAAAMVIQwwMzA5SiEAAAQVIQwzNTA0SiEACAUKOg2EIX4VIQAaMr4ADDE6NTRGvgDoKAYSGRAGGgYwMDAwMTEiAklSKgIxNjIFMzEyNjkiDAoCWk8SBDIxNjkgBioOUFVCTElDX0pPVVJORVk=&datum=2021-06-27&zeit=1033",
+                "method": "GET",
+                "contentTypes": [
+                    "text/html"
+                ]
+            },
+            {
+                "rel": "mobile-offers",
+                "version": null,
+                "href": "https://app.sbbmobile.ch/tripoffer?appid=bookingAPI&recon=%C2%B6HKI%C2%B6T%24A%3D1%40O%3DBern%40X%3D7439131%40Y%3D46948834%40u%3D0%40L%3D8507000%40a%3D128%40%24A%3D1%40O%3DZ%C3%BCrich+HB%40X%3D8540211%40Y%3D47378177%40u%3D0%40L%3D8503000%40a%3D128%40%24202106271033%24202106271154%24IR+16+++%24%241%24%24%24%24%C2%B6KC%C2%B6%23VE%230%23CF%23100%23CA%230%23CM%230%23SICT%231%23%C2%B6KCC%C2%B6%23VE%230%23ERG%238193%23HIN%230%23ECK%23285753%7C285753%7C285832%7C285834%7C0%7C0%7C165%7C285752%7C3%7C-2147479550%7C0%23&date=2021-06-27",
+                "method": "GET",
+                "contentTypes": [
+                    "text/html"
+                ]
+            }
+        ]
+    },
+    {
+        "tripId": "gQjwQwoCVjEStwPCtkhLScK2VCRBPTFATz1CZXJuQFg9NzQzOTEzMUBZPTQ2OTQ4ODM0QHU9MEBMPTg1MDcwMDBAYT0xMjhADTUMT2x0ZQU2QDkwNzcwM0BZPTQ3MzUxOTM4GTYMMDIxOBE2LDIwMjEwNjI3MTAzNhkNUDEwMyRFQyA1MCAgICQkMSQkJCTCpxGYvmMACc5IWsO8cmljaCBIQkBYPTg1NDAyMQXUGDczNzgxNzcZngQzMBnUFZ4IMTIwHQ0cNTYkSUMgNSAdnky2S0PCtiNWRSMwI0NGIzEwMCNDQQEMKE0jMCNTSUNUIzEjASQVJVhFUkcjMiNISU4jMCNFQ0sjMjg1NzU2fBkHBDgzBQ4BBxgwfDB8MTY1CR1sNHw0fC0yMTQ3NDgzNjQ2fDAjGowCCjoKEgoHOCmRKBIHU1RBVElPThIZAcB8LTA2LTI3VDEwOjM2OjAwKzAyOjAwIgdQTEFOTkVEKAkVPCGXFTwAGjI8AAwxOjAzSjwA8EALEhQICRALGgYwMDAwMTEiAkVDMgI1MBo6CgJWUhIeQklDWUNMRVM6IFJlc2VydmF0aW9uIHJlcXVpcmVkGP___wkCBAEgCQgs____ARowCgJSIBIULjIAHHBvc3NpYmxlVjIARCoOUFVCTElDX0pPVVJORVkasTkPMtMANg8BDDE6MjBK0wAICAofLUsMMjExMzUPTjABQSkVIT4wAQA1TmwBGAoSGAgIEAo5MCRJQyoBNTIDNTE3_jQB9jQB",
+        "alternative": false,
+        "valid": true,
+        "segments": [
+            {
+                "type": "PUBLIC_JOURNEY",
+                "stops": [
+                    {
+                        "id2": {
+                            "value": "8507000",
+                            "type": "UIC",
+                            "externalId": null
+                        },
+                        "name": "Bern",
+                        "departureDateTime": "2021-06-27T10:36:00+02:00",
+                        "departureDelayText": "",
+                        "departureTrack": "3",
+                        "departurePlatformChanged": false,
+                        "delayUndefined": false,
+                        "arrivalPlatformChanged": false,
+                        "stopStatus": "PLANNED",
+                        "requestStop": false,
+                        "boardingAlightingStatus": "BOARDING_ALIGHTING",
+                        "routeIndex": 9,
+                        "tariffBorder": false
+                    },
+                    {
+                        "id2": {
+                            "value": "8500218",
+                            "type": "UIC",
+                            "externalId": null
+                        },
+                        "name": "Olten",
+                        "arrivalDateTime": "2021-06-27T11:03:00+02:00",
+                        "arrivalDelayText": "",
+                        "departurePlatformChanged": false,
+                        "delayUndefined": false,
+                        "arrivalTrack": "7",
+                        "arrivalPlatformChanged": false,
+                        "stopStatus": "PLANNED",
+                        "requestStop": false,
+                        "boardingAlightingStatus": "BOARDING_ALIGHTING",
+                        "routeIndex": 11,
+                        "tariffBorder": false
+                    }
+                ],
+                "transportProduct": {
+                    "name": "EC 50",
+                    "categoryShortForm": "EC",
+                    "categoryLongForm": "EuroCity",
+                    "line": null,
+                    "number": "50",
+                    "vehicleType": "TRAIN"
+                },
+                "attributes": [
+                    {
+                        "key": "OM",
+                        "value": "Masks mandatory for travellers aged 12 and over"
+                    },
+                    {
+                        "key": "TT",
+                        "value": "Tilting train"
+                    },
+                    {
+                        "key": "WR",
+                        "value": "Restaurant"
+                    },
+                    {
+                        "key": "VS",
+                        "value": "BICYCLES: Reservation only possible at the counter/SBB Contact Center"
+                    },
+                    {
+                        "key": "VR",
+                        "value": "BICYCLES: Reservation required"
+                    },
+                    {
+                        "key": "R ",
+                        "value": "Reservation possible"
+                    }
+                ],
+                "messages": [],
+                "direction": "Basel SBB",
+                "journeyStatus": "PLANNED",
+                "cancelled": false,
+                "partiallyCancelled": false,
+                "reachable": true,
+                "redirected": false
+            },
+            {
+                "type": "PUBLIC_JOURNEY",
+                "stops": [
+                    {
+                        "id2": {
+                            "value": "8500218",
+                            "type": "UIC",
+                            "externalId": null
+                        },
+                        "name": "Olten",
+                        "departureDateTime": "2021-06-27T11:20:00+02:00",
+                        "departureDelayText": "",
+                        "departureTrack": "7",
+                        "departurePlatformChanged": false,
+                        "delayUndefined": false,
+                        "arrivalPlatformChanged": false,
+                        "stopStatus": "PLANNED",
+                        "requestStop": false,
+                        "boardingAlightingStatus": "BOARDING_ALIGHTING",
+                        "routeIndex": 8,
+                        "tariffBorder": false
+                    },
+                    {
+                        "id2": {
+                            "value": "8502113",
+                            "type": "UIC",
+                            "externalId": null
+                        },
+                        "name": "Aarau",
+                        "departureDateTime": "2021-06-27T11:31:00+02:00",
+                        "departureDelayText": "",
+                        "arrivalDateTime": "2021-06-27T11:29:00+02:00",
+                        "arrivalDelayText": "",
+                        "departureTrack": "3",
+                        "departurePlatformChanged": false,
+                        "delayUndefined": false,
+                        "arrivalTrack": "3",
+                        "arrivalPlatformChanged": false,
+                        "stopStatus": "PLANNED",
+                        "requestStop": false,
+                        "boardingAlightingStatus": "BOARDING_ALIGHTING",
+                        "routeIndex": 9,
+                        "tariffBorder": false
+                    },
+                    {
+                        "id2": {
+                            "value": "8503000",
+                            "type": "UIC",
+                            "externalId": null
+                        },
+                        "name": "Zürich HB",
+                        "arrivalDateTime": "2021-06-27T11:56:00+02:00",
+                        "arrivalDelayText": "",
+                        "departurePlatformChanged": false,
+                        "delayUndefined": false,
+                        "arrivalTrack": "33",
+                        "arrivalPlatformChanged": false,
+                        "stopStatus": "PLANNED",
+                        "requestStop": false,
+                        "boardingAlightingStatus": "BOARDING_ALIGHTING",
+                        "routeIndex": 10,
+                        "tariffBorder": false
+                    }
+                ],
+                "transportProduct": {
+                    "name": "IC 5",
+                    "categoryShortForm": "IC",
+                    "categoryLongForm": "InterCity",
+                    "line": "5",
+                    "number": "517",
+                    "vehicleType": "TRAIN"
+                },
+                "attributes": [
+                    {
+                        "key": "OM",
+                        "value": "Masks mandatory for travellers aged 12 and over"
+                    },
+                    {
+                        "key": "TT",
+                        "value": "Tilting train"
+                    },
+                    {
+                        "key": "WR",
+                        "value": "Restaurant"
+                    },
+                    {
+                        "key": "FZ",
+                        "value": "Family zone without play area"
+                    },
+                    {
+                        "key": "BZ",
+                        "value": "Business zone in 1st class"
+                    },
+                    {
+                        "key": "FS",
+                        "value": "Free Internet with the SBB FreeSurf app"
+                    },
+                    {
+                        "key": "RZ",
+                        "value": "Quiet zone in 1st class"
+                    },
+                    {
+                        "key": "VR",
+                        "value": "BICYCLES: Reservation required"
+                    },
+                    {
+                        "key": "R ",
+                        "value": "Reservation possible"
+                    }
+                ],
+                "messages": [],
+                "direction": "St. Gallen",
+                "journeyStatus": "PLANNED",
+                "cancelled": false,
+                "partiallyCancelled": false,
+                "reachable": true,
+                "redirected": false
+            }
+        ],
+        "scrollCheckSum": "6a40b8ab_3",
+        "links": [
+            {
+                "rel": "prices",
+                "version": null,
+                "href": "https://b2p-int.api.sbb.ch/api/v2/prices?tripIds=gQjwQwoCVjEStwPCtkhLScK2VCRBPTFATz1CZXJuQFg9NzQzOTEzMUBZPTQ2OTQ4ODM0QHU9MEBMPTg1MDcwMDBAYT0xMjhADTUMT2x0ZQU2QDkwNzcwM0BZPTQ3MzUxOTM4GTYMMDIxOBE2LDIwMjEwNjI3MTAzNhkNUDEwMyRFQyA1MCAgICQkMSQkJCTCpxGYvmMACc5IWsO8cmljaCBIQkBYPTg1NDAyMQXUGDczNzgxNzcZngQzMBnUFZ4IMTIwHQ0cNTYkSUMgNSAdnky2S0PCtiNWRSMwI0NGIzEwMCNDQQEMKE0jMCNTSUNUIzEjASQVJVhFUkcjMiNISU4jMCNFQ0sjMjg1NzU2fBkHBDgzBQ4BBxgwfDB8MTY1CR1sNHw0fC0yMTQ3NDgzNjQ2fDAjGowCCjoKEgoHOCmRKBIHU1RBVElPThIZAcB8LTA2LTI3VDEwOjM2OjAwKzAyOjAwIgdQTEFOTkVEKAkVPCGXFTwAGjI8AAwxOjAzSjwA8EALEhQICRALGgYwMDAwMTEiAkVDMgI1MBo6CgJWUhIeQklDWUNMRVM6IFJlc2VydmF0aW9uIHJlcXVpcmVkGP___wkCBAEgCQgs____ARowCgJSIBIULjIAHHBvc3NpYmxlVjIARCoOUFVCTElDX0pPVVJORVkasTkPMtMANg8BDDE6MjBK0wAICAofLUsMMjExMzUPTjABQSkVIT4wAQA1TmwBGAoSGAgIEAo5MCRJQyoBNTIDNTE3_jQB9jQB&passengers=${passengerInfos}",
+                "method": "GET",
+                "contentTypes": [
+                    "application/json"
+                ]
+            },
+            {
+                "rel": "trip-offers",
+                "version": null,
+                "href": "https://b2p-int.api.sbb.ch/api/trip-offers?tripId=gQjwQwoCVjEStwPCtkhLScK2VCRBPTFATz1CZXJuQFg9NzQzOTEzMUBZPTQ2OTQ4ODM0QHU9MEBMPTg1MDcwMDBAYT0xMjhADTUMT2x0ZQU2QDkwNzcwM0BZPTQ3MzUxOTM4GTYMMDIxOBE2LDIwMjEwNjI3MTAzNhkNUDEwMyRFQyA1MCAgICQkMSQkJCTCpxGYvmMACc5IWsO8cmljaCBIQkBYPTg1NDAyMQXUGDczNzgxNzcZngQzMBnUFZ4IMTIwHQ0cNTYkSUMgNSAdnky2S0PCtiNWRSMwI0NGIzEwMCNDQQEMKE0jMCNTSUNUIzEjASQVJVhFUkcjMiNISU4jMCNFQ0sjMjg1NzU2fBkHBDgzBQ4BBxgwfDB8MTY1CR1sNHw0fC0yMTQ3NDgzNjQ2fDAjGowCCjoKEgoHOCmRKBIHU1RBVElPThIZAcB8LTA2LTI3VDEwOjM2OjAwKzAyOjAwIgdQTEFOTkVEKAkVPCGXFTwAGjI8AAwxOjAzSjwA8EALEhQICRALGgYwMDAwMTEiAkVDMgI1MBo6CgJWUhIeQklDWUNMRVM6IFJlc2VydmF0aW9uIHJlcXVpcmVkGP___wkCBAEgCQgs____ARowCgJSIBIULjIAHHBvc3NpYmxlVjIARCoOUFVCTElDX0pPVVJORVkasTkPMtMANg8BDDE6MjBK0wAICAofLUsMMjExMzUPTjABQSkVIT4wAQA1TmwBGAoSGAgIEAo5MCRJQyoBNTIDNTE3_jQB9jQB&passengers=${passengerInfos}",
+                "method": "GET",
+                "contentTypes": [
+                    "application/json"
+                ]
+            },
+            {
+                "rel": "online-offers",
+                "version": null,
+                "href": "https://www.sbb.ch/en/buying/pages/fahrplan/fahrplan.xhtml?recon=gQjwQwoCVjEStwPCtkhLScK2VCRBPTFATz1CZXJuQFg9NzQzOTEzMUBZPTQ2OTQ4ODM0QHU9MEBMPTg1MDcwMDBAYT0xMjhADTUMT2x0ZQU2QDkwNzcwM0BZPTQ3MzUxOTM4GTYMMDIxOBE2LDIwMjEwNjI3MTAzNhkNUDEwMyRFQyA1MCAgICQkMSQkJCTCpxGYvmMACc5IWsO8cmljaCBIQkBYPTg1NDAyMQXUGDczNzgxNzcZngQzMBnUFZ4IMTIwHQ0cNTYkSUMgNSAdnky2S0PCtiNWRSMwI0NGIzEwMCNDQQEMKE0jMCNTSUNUIzEjASQVJVhFUkcjMiNISU4jMCNFQ0sjMjg1NzU2fBkHBDgzBQ4BBxgwfDB8MTY1CR1sNHw0fC0yMTQ3NDgzNjQ2fDAjGowCCjoKEgoHOCmRKBIHU1RBVElPThIZAcB8LTA2LTI3VDEwOjM2OjAwKzAyOjAwIgdQTEFOTkVEKAkVPCGXFTwAGjI8AAwxOjAzSjwA8EALEhQICRALGgYwMDAwMTEiAkVDMgI1MBo6CgJWUhIeQklDWUNMRVM6IFJlc2VydmF0aW9uIHJlcXVpcmVkGP___wkCBAEgCQgs____ARowCgJSIBIULjIAHHBvc3NpYmxlVjIARCoOUFVCTElDX0pPVVJORVkasTkPMtMANg8BDDE6MjBK0wAICAofLUsMMjExMzUPTjABQSkVIT4wAQA1TmwBGAoSGAgIEAo5MCRJQyoBNTIDNTE3_jQB9jQB&datum=2021-06-27&zeit=1036",
+                "method": "GET",
+                "contentTypes": [
+                    "text/html"
+                ]
+            },
+            {
+                "rel": "mobile-offers",
+                "version": null,
+                "href": "https://app.sbbmobile.ch/tripoffer?appid=bookingAPI&recon=%C2%B6HKI%C2%B6T%24A%3D1%40O%3DBern%40X%3D7439131%40Y%3D46948834%40u%3D0%40L%3D8507000%40a%3D128%40%24A%3D1%40O%3DOlten%40X%3D7907703%40Y%3D47351938%40u%3D0%40L%3D8500218%40a%3D128%40%24202106271036%24202106271103%24EC+50+++%24%241%24%24%24%24%C2%A7T%24A%3D1%40O%3DOlten%40X%3D7907703%40Y%3D47351938%40u%3D0%40L%3D8500218%40a%3D128%40%24A%3D1%40O%3DZ%C3%BCrich+HB%40X%3D8540211%40Y%3D47378177%40u%3D0%40L%3D8503000%40a%3D128%40%24202106271120%24202106271156%24IC+5++++%24%241%24%24%24%24%C2%B6KC%C2%B6%23VE%230%23CF%23100%23CA%230%23CM%230%23SICT%231%23%C2%B6KCC%C2%B6%23VE%230%23ERG%232%23HIN%230%23ECK%23285756%7C285756%7C285836%7C285836%7C0%7C0%7C165%7C285754%7C4%7C-2147483646%7C0%23&date=2021-06-27",
+                "method": "GET",
+                "contentTypes": [
+                    "text/html"
+                ]
+            }
+        ]
+    },
+    {
+        "tripId": "8gTwQwoCVjESowLCtkhLScK2VCRBPTFATz1CZXJuQFg9NzQzOTEzMUBZPTQ2OTQ4ODM0QHU9MEBMPTg1MDcwMDBAYT0xMjhADTVIWsO8cmljaCBIQkBYPTg1NDAyMQU7GDczNzgxNzcZOwQzMBk7LDIwMjEwNjI3MTAzOBkN2DIwNiRJUiAzNSAgICQkMSQkJCTCtktDwrYjVkUjMCNDRiMxMDAjQ0EjMCNDTSMwI1NJQ1QjMSMBJBUlcEVSRyMyMTA5NDQxI0hJTiMwI0VDSyMyODU3ODJ8AQcENTgBBwQ4MwkHIDQ2fDB8MHwzNwEVdDc1N3w1fC0yMTQ3NDc5NTUyfDAjGsUCCjgKEgoHOAn9KBIHU1RBVElPThIZAcV8LTA2LTI3VDEwOjM4OjAwKzAyOjAwIgdQTEFOTkVECh8NOgw4MDA1FToVHwQoAS4hAAA4SiEAAAIZIQQxMBl8GUIAAxUhCDAyMU5CAAAEFSEMMzAwMUpjAAgFCjoNpSGhFSEAGjLfAAwyOjA2Rt8ArCgGEhgQBhoGMDAwMDExIgJJUioCMzUyBDIzNjcqDlBVQkxJQ19KT1VSTkVZ",
+        "alternative": false,
+        "valid": true,
+        "segments": [
+            {
+                "type": "PUBLIC_JOURNEY",
+                "stops": [
+                    {
+                        "id2": {
+                            "value": "8507000",
+                            "type": "UIC",
+                            "externalId": null
+                        },
+                        "name": "Bern",
+                        "departureDateTime": "2021-06-27T10:38:00+02:00",
+                        "departureDelayText": "",
+                        "departureTrack": "6",
+                        "departurePlatformChanged": false,
+                        "delayUndefined": false,
+                        "arrivalPlatformChanged": false,
+                        "stopStatus": "PLANNED",
+                        "requestStop": false,
+                        "boardingAlightingStatus": "BOARDING_ALIGHTING",
+                        "routeIndex": 0,
+                        "tariffBorder": false
+                    },
+                    {
+                        "id2": {
+                            "value": "8508005",
+                            "type": "UIC",
+                            "externalId": null
+                        },
+                        "name": "Burgdorf",
+                        "departureDateTime": "2021-06-27T10:53:00+02:00",
+                        "departureDelayText": "",
+                        "arrivalDateTime": "2021-06-27T10:52:00+02:00",
+                        "arrivalDelayText": "",
+                        "departureTrack": "3",
+                        "departurePlatformChanged": false,
+                        "delayUndefined": false,
+                        "arrivalTrack": "3",
+                        "arrivalPlatformChanged": false,
+                        "stopStatus": "PLANNED",
+                        "requestStop": false,
+                        "boardingAlightingStatus": "BOARDING_ALIGHTING",
+                        "routeIndex": 1,
+                        "tariffBorder": false
+                    },
+                    {
+                        "id2": {
+                            "value": "8508008",
+                            "type": "UIC",
+                            "externalId": null
+                        },
+                        "name": "Herzogenbuchsee",
+                        "departureDateTime": "2021-06-27T11:05:00+02:00",
+                        "departureDelayText": "",
+                        "arrivalDateTime": "2021-06-27T11:04:00+02:00",
+                        "arrivalDelayText": "",
+                        "departureTrack": "2",
+                        "departurePlatformChanged": false,
+                        "delayUndefined": false,
+                        "arrivalTrack": "2",
+                        "arrivalPlatformChanged": false,
+                        "stopStatus": "PLANNED",
+                        "requestStop": false,
+                        "boardingAlightingStatus": "BOARDING_ALIGHTING",
+                        "routeIndex": 2,
+                        "tariffBorder": false
+                    },
+                    {
+                        "id2": {
+                            "value": "8508100",
+                            "type": "UIC",
+                            "externalId": null
+                        },
+                        "name": "Langenthal",
+                        "departureDateTime": "2021-06-27T11:12:00+02:00",
+                        "departureDelayText": "",
+                        "arrivalDateTime": "2021-06-27T11:10:00+02:00",
+                        "arrivalDelayText": "",
+                        "departureTrack": "3",
+                        "departurePlatformChanged": false,
+                        "delayUndefined": false,
+                        "arrivalTrack": "3",
+                        "arrivalPlatformChanged": false,
+                        "stopStatus": "PLANNED",
+                        "requestStop": false,
+                        "boardingAlightingStatus": "BOARDING_ALIGHTING",
+                        "routeIndex": 3,
+                        "tariffBorder": false
+                    },
+                    {
+                        "id2": {
+                            "value": "8500218",
+                            "type": "UIC",
+                            "externalId": null
+                        },
+                        "name": "Olten",
+                        "departureDateTime": "2021-06-27T11:30:00+02:00",
+                        "departureDelayText": "",
+                        "arrivalDateTime": "2021-06-27T11:24:00+02:00",
+                        "arrivalDelayText": "",
+                        "departureTrack": "4",
+                        "departurePlatformChanged": false,
+                        "delayUndefined": false,
+                        "arrivalTrack": "4",
+                        "arrivalPlatformChanged": false,
+                        "stopStatus": "PLANNED",
+                        "requestStop": false,
+                        "boardingAlightingStatus": "BOARDING_ALIGHTING",
+                        "routeIndex": 4,
+                        "tariffBorder": false
+                    },
+                    {
+                        "id2": {
+                            "value": "8503001",
+                            "type": "UIC",
+                            "externalId": null
+                        },
+                        "name": "Zürich Altstetten",
+                        "departureDateTime": "2021-06-27T12:00:00+02:00",
+                        "departureDelayText": "",
+                        "arrivalDateTime": "2021-06-27T12:00:00+02:00",
+                        "arrivalDelayText": "",
+                        "departureTrack": "6",
+                        "departurePlatformChanged": false,
+                        "delayUndefined": false,
+                        "arrivalTrack": "6",
+                        "arrivalPlatformChanged": false,
+                        "stopStatus": "PLANNED",
+                        "requestStop": false,
+                        "boardingAlightingStatus": "BOARDING_ALIGHTING",
+                        "routeIndex": 5,
+                        "tariffBorder": false
+                    },
+                    {
+                        "id2": {
+                            "value": "8503000",
+                            "type": "UIC",
+                            "externalId": null
+                        },
+                        "name": "Zürich HB",
+                        "arrivalDateTime": "2021-06-27T12:06:00+02:00",
+                        "arrivalDelayText": "",
+                        "departurePlatformChanged": false,
+                        "delayUndefined": false,
+                        "arrivalTrack": "13",
+                        "arrivalPlatformChanged": false,
+                        "stopStatus": "PLANNED",
+                        "requestStop": false,
+                        "boardingAlightingStatus": "BOARDING_ALIGHTING",
+                        "routeIndex": 6,
+                        "tariffBorder": false
+                    }
+                ],
+                "transportProduct": {
+                    "name": "IR 35",
+                    "categoryShortForm": "IR",
+                    "categoryLongForm": "InterRegio",
+                    "line": "35",
+                    "number": "2367",
+                    "vehicleType": "TRAIN"
+                },
+                "attributes": [
+                    {
+                        "key": "OM",
+                        "value": "Masks mandatory for travellers aged 12 and over"
+                    },
+                    {
+                        "key": "FS",
+                        "value": "Free Internet with the SBB FreeSurf app"
+                    }
+                ],
+                "messages": [],
+                "direction": "Zürich HB",
+                "journeyStatus": "PLANNED",
+                "cancelled": false,
+                "partiallyCancelled": false,
+                "reachable": true,
+                "redirected": false
+            }
+        ],
+        "scrollCheckSum": "0a798180_3",
+        "links": [
+            {
+                "rel": "prices",
+                "version": null,
+                "href": "https://b2p-int.api.sbb.ch/api/v2/prices?tripIds=8gTwQwoCVjESowLCtkhLScK2VCRBPTFATz1CZXJuQFg9NzQzOTEzMUBZPTQ2OTQ4ODM0QHU9MEBMPTg1MDcwMDBAYT0xMjhADTVIWsO8cmljaCBIQkBYPTg1NDAyMQU7GDczNzgxNzcZOwQzMBk7LDIwMjEwNjI3MTAzOBkN2DIwNiRJUiAzNSAgICQkMSQkJCTCtktDwrYjVkUjMCNDRiMxMDAjQ0EjMCNDTSMwI1NJQ1QjMSMBJBUlcEVSRyMyMTA5NDQxI0hJTiMwI0VDSyMyODU3ODJ8AQcENTgBBwQ4MwkHIDQ2fDB8MHwzNwEVdDc1N3w1fC0yMTQ3NDc5NTUyfDAjGsUCCjgKEgoHOAn9KBIHU1RBVElPThIZAcV8LTA2LTI3VDEwOjM4OjAwKzAyOjAwIgdQTEFOTkVECh8NOgw4MDA1FToVHwQoAS4hAAA4SiEAAAIZIQQxMBl8GUIAAxUhCDAyMU5CAAAEFSEMMzAwMUpjAAgFCjoNpSGhFSEAGjLfAAwyOjA2Rt8ArCgGEhgQBhoGMDAwMDExIgJJUioCMzUyBDIzNjcqDlBVQkxJQ19KT1VSTkVZ&passengers=${passengerInfos}",
+                "method": "GET",
+                "contentTypes": [
+                    "application/json"
+                ]
+            },
+            {
+                "rel": "trip-offers",
+                "version": null,
+                "href": "https://b2p-int.api.sbb.ch/api/trip-offers?tripId=8gTwQwoCVjESowLCtkhLScK2VCRBPTFATz1CZXJuQFg9NzQzOTEzMUBZPTQ2OTQ4ODM0QHU9MEBMPTg1MDcwMDBAYT0xMjhADTVIWsO8cmljaCBIQkBYPTg1NDAyMQU7GDczNzgxNzcZOwQzMBk7LDIwMjEwNjI3MTAzOBkN2DIwNiRJUiAzNSAgICQkMSQkJCTCtktDwrYjVkUjMCNDRiMxMDAjQ0EjMCNDTSMwI1NJQ1QjMSMBJBUlcEVSRyMyMTA5NDQxI0hJTiMwI0VDSyMyODU3ODJ8AQcENTgBBwQ4MwkHIDQ2fDB8MHwzNwEVdDc1N3w1fC0yMTQ3NDc5NTUyfDAjGsUCCjgKEgoHOAn9KBIHU1RBVElPThIZAcV8LTA2LTI3VDEwOjM4OjAwKzAyOjAwIgdQTEFOTkVECh8NOgw4MDA1FToVHwQoAS4hAAA4SiEAAAIZIQQxMBl8GUIAAxUhCDAyMU5CAAAEFSEMMzAwMUpjAAgFCjoNpSGhFSEAGjLfAAwyOjA2Rt8ArCgGEhgQBhoGMDAwMDExIgJJUioCMzUyBDIzNjcqDlBVQkxJQ19KT1VSTkVZ&passengers=${passengerInfos}",
+                "method": "GET",
+                "contentTypes": [
+                    "application/json"
+                ]
+            },
+            {
+                "rel": "online-offers",
+                "version": null,
+                "href": "https://www.sbb.ch/en/buying/pages/fahrplan/fahrplan.xhtml?recon=8gTwQwoCVjESowLCtkhLScK2VCRBPTFATz1CZXJuQFg9NzQzOTEzMUBZPTQ2OTQ4ODM0QHU9MEBMPTg1MDcwMDBAYT0xMjhADTVIWsO8cmljaCBIQkBYPTg1NDAyMQU7GDczNzgxNzcZOwQzMBk7LDIwMjEwNjI3MTAzOBkN2DIwNiRJUiAzNSAgICQkMSQkJCTCtktDwrYjVkUjMCNDRiMxMDAjQ0EjMCNDTSMwI1NJQ1QjMSMBJBUlcEVSRyMyMTA5NDQxI0hJTiMwI0VDSyMyODU3ODJ8AQcENTgBBwQ4MwkHIDQ2fDB8MHwzNwEVdDc1N3w1fC0yMTQ3NDc5NTUyfDAjGsUCCjgKEgoHOAn9KBIHU1RBVElPThIZAcV8LTA2LTI3VDEwOjM4OjAwKzAyOjAwIgdQTEFOTkVECh8NOgw4MDA1FToVHwQoAS4hAAA4SiEAAAIZIQQxMBl8GUIAAxUhCDAyMU5CAAAEFSEMMzAwMUpjAAgFCjoNpSGhFSEAGjLfAAwyOjA2Rt8ArCgGEhgQBhoGMDAwMDExIgJJUioCMzUyBDIzNjcqDlBVQkxJQ19KT1VSTkVZ&datum=2021-06-27&zeit=1038",
+                "method": "GET",
+                "contentTypes": [
+                    "text/html"
+                ]
+            },
+            {
+                "rel": "mobile-offers",
+                "version": null,
+                "href": "https://app.sbbmobile.ch/tripoffer?appid=bookingAPI&recon=%C2%B6HKI%C2%B6T%24A%3D1%40O%3DBern%40X%3D7439131%40Y%3D46948834%40u%3D0%40L%3D8507000%40a%3D128%40%24A%3D1%40O%3DZ%C3%BCrich+HB%40X%3D8540211%40Y%3D47378177%40u%3D0%40L%3D8503000%40a%3D128%40%24202106271038%24202106271206%24IR+35+++%24%241%24%24%24%24%C2%B6KC%C2%B6%23VE%230%23CF%23100%23CA%230%23CM%230%23SICT%231%23%C2%B6KCC%C2%B6%23VE%230%23ERG%232109441%23HIN%230%23ECK%23285782%7C285758%7C285838%7C285846%7C0%7C0%7C37%7C285757%7C5%7C-2147479552%7C0%23&date=2021-06-27",
+                "method": "GET",
+                "contentTypes": [
+                    "text/html"
+                ]
+            }
+        ]
+    },
+    {
+        "tripId": "twTwQwoCVjESnQLCtkhLScK2VCRBPTFATz1CZXJuQFg9NzQzOTEzMUBZPTQ2OTQ4ODM0QHU9MEBMPTg1MDcwMDBAYT0xMjhADTVIWsO8cmljaCBIQkBYPTg1NDAyMQU7GDczNzgxNzcZOwQzMBk7LDIwMjEwNjI3MTEwMh0NmDU4JElDIDggICAgJCQxJCQkJMK2S0PCtiNWRSMwI0NGIzEwMCNDQQEMKE0jMCNTSUNUIzEjASQVJVhFUkcjMSNISU4jMCNFQ0sjMjg1NzgyfBkHCDgzOAEOAQcUMHwwfDM3AQ50NzU3fDZ8LTIxNDc0Nzk1MzR8MCMakAIKOgoSCgc4CfcoEgdTVEFUSU9OEhkBvzwtMDYtMjdUMTE6MDI6MDArBQYoIgdQTEFOTkVEKAUVPAH4FTwAGjo8AAQ1OEo8APBGBxIYCAUQBxoGMDAwMDExIgJJQyoBODIDODE1GjoKAlZSEh5CSUNZQ0xFUzogUmVzZXJ2YXRpb24gcmVxdWlyZWQY______8BAwQBIAEGBQEgARowCgJSIBIULjIAHHBvc3NpYmxlVjIAPCoOUFVCTElDX0pPVVJORVk=",
+        "alternative": false,
+        "valid": true,
+        "segments": [
+            {
+                "type": "PUBLIC_JOURNEY",
+                "stops": [
+                    {
+                        "id2": {
+                            "value": "8507000",
+                            "type": "UIC",
+                            "externalId": null
+                        },
+                        "name": "Bern",
+                        "departureDateTime": "2021-06-27T11:02:00+02:00",
+                        "departureDelayText": "",
+                        "departureTrack": "1",
+                        "departurePlatformChanged": false,
+                        "delayUndefined": false,
+                        "arrivalPlatformChanged": false,
+                        "stopStatus": "PLANNED",
+                        "requestStop": false,
+                        "boardingAlightingStatus": "BOARDING_ALIGHTING",
+                        "routeIndex": 5,
+                        "tariffBorder": false
+                    },
+                    {
+                        "id2": {
+                            "value": "8503000",
+                            "type": "UIC",
+                            "externalId": null
+                        },
+                        "name": "Zürich HB",
+                        "arrivalDateTime": "2021-06-27T11:58:00+02:00",
+                        "arrivalDelayText": "",
+                        "departurePlatformChanged": false,
+                        "delayUndefined": false,
+                        "arrivalTrack": "34",
+                        "arrivalPlatformChanged": false,
+                        "stopStatus": "PLANNED",
+                        "requestStop": false,
+                        "boardingAlightingStatus": "BOARDING_ALIGHTING",
+                        "routeIndex": 7,
+                        "tariffBorder": false
+                    }
+                ],
+                "transportProduct": {
+                    "name": "IC 8",
+                    "categoryShortForm": "IC",
+                    "categoryLongForm": "InterCity",
+                    "line": "8",
+                    "number": "815",
+                    "vehicleType": "TRAIN"
+                },
+                "attributes": [
+                    {
+                        "key": "OM",
+                        "value": "Masks mandatory for travellers aged 12 and over"
+                    },
+                    {
+                        "key": "WR",
+                        "value": "Restaurant"
+                    },
+                    {
+                        "key": "FA",
+                        "value": "Family Coach with play area"
+                    },
+                    {
+                        "key": "BZ",
+                        "value": "Business zone in 1st class"
+                    },
+                    {
+                        "key": "FS",
+                        "value": "Free Internet with the SBB FreeSurf app"
+                    },
+                    {
+                        "key": "RZ",
+                        "value": "Quiet zone in 1st class"
+                    },
+                    {
+                        "key": "VR",
+                        "value": "BICYCLES: Reservation required"
+                    },
+                    {
+                        "key": "R ",
+                        "value": "Reservation possible"
+                    }
+                ],
+                "messages": [],
+                "direction": "Romanshorn",
+                "journeyStatus": "PLANNED",
+                "cancelled": false,
+                "partiallyCancelled": false,
+                "reachable": true,
+                "redirected": false
+            }
+        ],
+        "scrollCheckSum": "9739b350_3",
+        "links": [
+            {
+                "rel": "prices",
+                "version": null,
+                "href": "https://b2p-int.api.sbb.ch/api/v2/prices?tripIds=twTwQwoCVjESnQLCtkhLScK2VCRBPTFATz1CZXJuQFg9NzQzOTEzMUBZPTQ2OTQ4ODM0QHU9MEBMPTg1MDcwMDBAYT0xMjhADTVIWsO8cmljaCBIQkBYPTg1NDAyMQU7GDczNzgxNzcZOwQzMBk7LDIwMjEwNjI3MTEwMh0NmDU4JElDIDggICAgJCQxJCQkJMK2S0PCtiNWRSMwI0NGIzEwMCNDQQEMKE0jMCNTSUNUIzEjASQVJVhFUkcjMSNISU4jMCNFQ0sjMjg1NzgyfBkHCDgzOAEOAQcUMHwwfDM3AQ50NzU3fDZ8LTIxNDc0Nzk1MzR8MCMakAIKOgoSCgc4CfcoEgdTVEFUSU9OEhkBvzwtMDYtMjdUMTE6MDI6MDArBQYoIgdQTEFOTkVEKAUVPAH4FTwAGjo8AAQ1OEo8APBGBxIYCAUQBxoGMDAwMDExIgJJQyoBODIDODE1GjoKAlZSEh5CSUNZQ0xFUzogUmVzZXJ2YXRpb24gcmVxdWlyZWQY______8BAwQBIAEGBQEgARowCgJSIBIULjIAHHBvc3NpYmxlVjIAPCoOUFVCTElDX0pPVVJORVk=&passengers=${passengerInfos}",
+                "method": "GET",
+                "contentTypes": [
+                    "application/json"
+                ]
+            },
+            {
+                "rel": "trip-offers",
+                "version": null,
+                "href": "https://b2p-int.api.sbb.ch/api/trip-offers?tripId=twTwQwoCVjESnQLCtkhLScK2VCRBPTFATz1CZXJuQFg9NzQzOTEzMUBZPTQ2OTQ4ODM0QHU9MEBMPTg1MDcwMDBAYT0xMjhADTVIWsO8cmljaCBIQkBYPTg1NDAyMQU7GDczNzgxNzcZOwQzMBk7LDIwMjEwNjI3MTEwMh0NmDU4JElDIDggICAgJCQxJCQkJMK2S0PCtiNWRSMwI0NGIzEwMCNDQQEMKE0jMCNTSUNUIzEjASQVJVhFUkcjMSNISU4jMCNFQ0sjMjg1NzgyfBkHCDgzOAEOAQcUMHwwfDM3AQ50NzU3fDZ8LTIxNDc0Nzk1MzR8MCMakAIKOgoSCgc4CfcoEgdTVEFUSU9OEhkBvzwtMDYtMjdUMTE6MDI6MDArBQYoIgdQTEFOTkVEKAUVPAH4FTwAGjo8AAQ1OEo8APBGBxIYCAUQBxoGMDAwMDExIgJJQyoBODIDODE1GjoKAlZSEh5CSUNZQ0xFUzogUmVzZXJ2YXRpb24gcmVxdWlyZWQY______8BAwQBIAEGBQEgARowCgJSIBIULjIAHHBvc3NpYmxlVjIAPCoOUFVCTElDX0pPVVJORVk=&passengers=${passengerInfos}",
+                "method": "GET",
+                "contentTypes": [
+                    "application/json"
+                ]
+            },
+            {
+                "rel": "online-offers",
+                "version": null,
+                "href": "https://www.sbb.ch/en/buying/pages/fahrplan/fahrplan.xhtml?recon=twTwQwoCVjESnQLCtkhLScK2VCRBPTFATz1CZXJuQFg9NzQzOTEzMUBZPTQ2OTQ4ODM0QHU9MEBMPTg1MDcwMDBAYT0xMjhADTVIWsO8cmljaCBIQkBYPTg1NDAyMQU7GDczNzgxNzcZOwQzMBk7LDIwMjEwNjI3MTEwMh0NmDU4JElDIDggICAgJCQxJCQkJMK2S0PCtiNWRSMwI0NGIzEwMCNDQQEMKE0jMCNTSUNUIzEjASQVJVhFUkcjMSNISU4jMCNFQ0sjMjg1NzgyfBkHCDgzOAEOAQcUMHwwfDM3AQ50NzU3fDZ8LTIxNDc0Nzk1MzR8MCMakAIKOgoSCgc4CfcoEgdTVEFUSU9OEhkBvzwtMDYtMjdUMTE6MDI6MDArBQYoIgdQTEFOTkVEKAUVPAH4FTwAGjo8AAQ1OEo8APBGBxIYCAUQBxoGMDAwMDExIgJJQyoBODIDODE1GjoKAlZSEh5CSUNZQ0xFUzogUmVzZXJ2YXRpb24gcmVxdWlyZWQY______8BAwQBIAEGBQEgARowCgJSIBIULjIAHHBvc3NpYmxlVjIAPCoOUFVCTElDX0pPVVJORVk=&datum=2021-06-27&zeit=1102",
+                "method": "GET",
+                "contentTypes": [
+                    "text/html"
+                ]
+            },
+            {
+                "rel": "mobile-offers",
+                "version": null,
+                "href": "https://app.sbbmobile.ch/tripoffer?appid=bookingAPI&recon=%C2%B6HKI%C2%B6T%24A%3D1%40O%3DBern%40X%3D7439131%40Y%3D46948834%40u%3D0%40L%3D8507000%40a%3D128%40%24A%3D1%40O%3DZ%C3%BCrich+HB%40X%3D8540211%40Y%3D47378177%40u%3D0%40L%3D8503000%40a%3D128%40%24202106271102%24202106271158%24IC+8++++%24%241%24%24%24%24%C2%B6KC%C2%B6%23VE%230%23CF%23100%23CA%230%23CM%230%23SICT%231%23%C2%B6KCC%C2%B6%23VE%230%23ERG%231%23HIN%230%23ECK%23285782%7C285782%7C285838%7C285838%7C0%7C0%7C37%7C285757%7C6%7C-2147479534%7C0%23&date=2021-06-27",
+                "method": "GET",
+                "contentTypes": [
+                    "text/html"
+                ]
+            }
+        ]
+    }
+]
